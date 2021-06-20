@@ -3140,7 +3140,7 @@ public class Grupa4 {
     		    			String password = "-404";
     		    			username = text_field_username.getText();
     		    			password = String.valueOf(password_field.getPassword());
-    		    			if((username.equals("admin") && password.equals("admin")) || (username.equals("SHLONG") && password.equals("ADMIN"))) {
+    		    			if((username.equals("admin") && password.equals("admin")) || (username.equals("ADMIN") && password.equals("ADMIN"))) {
     		    				JOptionPane.showMessageDialog(null, "You successfully have logged in!","Success", JOptionPane.NO_OPTION);
     		    				SLEEP new_sleep = new SLEEP(1500);
     		    				new_sleep.sleep();
